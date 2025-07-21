@@ -3,10 +3,12 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/hooks/useAuth";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 export default function Login() {
   const { t } = useTranslation();
-  const { user, login } = useAuth();
+  const { login } = useAuth();
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -23,9 +25,9 @@ export default function Login() {
       return;
     }
     try {
-      await login(email, password);
-      const role = user?.role || "user";
-      window.location.href = role === "admin" ? "/admin" : "/dashboard";
+      const logged = await login(email, password);
+      const role = logged.role;
+      navigate(role === "admin" ? "/admin" : "/dashboard", { replace: true });
     } catch (err: any) {
       setError(err.message || t("login.error"));
     }

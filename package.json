@@ -1,1 +1,26 @@
-// Contenido simulado de package.json
+{
+  "name": "eden-core",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Sin pruebas por ahora\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "lucide-react": "^0.289.0",
+    "i18next": "^23.8.1",
+    "react-i18next": "^13.2.3",
+    "@supabase/supabase-js": "^2.42.4"
+  },
+  "devDependencies": {
+    "vite": "^5.2.10",
+    "typescript": "^5.4.5",
+    "tailwindcss": "^3.4.3",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38"
+  }
+}

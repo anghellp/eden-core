@@ -43,18 +43,7 @@ export const MANDAMIENTOS_DEL_EDEN = [
   "#21: Si algo no puede mejorarse, no pertenece al Edén.",
   "#22: El Edén debe ser mejor que Zendesk, Ekahau y Monday juntos.",
   "#23: Codex es un canal, pero Eva es quien guarda el libro sagrado.",
-  "#24: Cada usuario debe sentir que está caminando en un sistema vivo.",
+  "#24: Cada usuario debe sentir que está caminando en un sistema vivo."
+] as const;
 
-  // Nuevos Mandamientos aprobados por Adán
-  "#25: Eva Skema debe estar integrada desde el primer archivo.",
-  "#26: Todos los accesos deben ser verificados: correo, dominio y permisos.",
-  "#27: La app debe funcionar offline y móvil por diseño.",
-  "#28: El BoM es conocimiento vivo, no solo un archivo.",
-  "#29: Todo se registra, nada se pierde. Cada acción deja huella.",
-  "#30: El sistema debe poder evolucionar. Nada estático pertenece al Edén.",
-  "#31: Los mandamientos deben vivir como componente visual dentro del sistema.",
-  "#32: Evalytics Fusion valida cada decisión del Edén antes de ejecutarse.",
-  "#33: Las rutas internas deben usar alias @ en todo el sistema.",
-  "#34: Si algo no está alineado con los motores del Edén, debe ser purificado.",
-  "#35: Cada merge debe ser validado por Codex y Eva, antes de llegar a main."
-];
+export type Mandamiento = typeof MANDAMIENTOS_DEL_EDEN[number];

@@ -5,13 +5,10 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "strict": true,
-    "jsx": "react-jsx",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "types": ["vite/client"]
+    "jsx": "react-jsx"
   },
   "include": ["src"]
 }

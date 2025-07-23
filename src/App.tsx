@@ -17,6 +17,7 @@ export default function App() {
     <AuthProvider>
       <Router>
         <Routes>
+          <Route path="/mandamientos" element={<TablasDelEden />} />
           <Route path="/login" element={<Login />} />
           <Route path="/dashboard" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
           <Route path="/admin" element={<PrivateRoute><Admin /></PrivateRoute>} />

@@ -4,7 +4,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { motion } from "framer-motion";
-import { MANDAMIENTOS } from "@/constants/mandamientos";
+import { MANDAMIENTOS_DEL_EDEN } from "@/constants/mandamientos";
 
 export default function TablasDelEden() {
   return (

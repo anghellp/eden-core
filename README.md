@@ -8,6 +8,13 @@ Proyecto base para las pruebas de Edén. Incluye login funcional y soporte para 
 - `npm test`: ejecuta las pruebas (aún sin implementar).
 - `npm run build`: genera la versión de producción.
 
+## 🚀 Cómo iniciar el proyecto
+
+```bash
+npm install
+npm run dev
+```
+
 ## Mandamientos
 
 Consulta `src/constants/mandamientos.ts` para ver los mandamientos del Edén exportados individualmente.

@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function Login() {
   const { t } = useTranslation();
-  const { login } = useAuth();
+  const { login, loginWithGoogle } = useAuth();
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -59,6 +59,9 @@ export default function Login() {
         </div>
         <Button type="submit" className="w-full">
           {t("login.submit")}
+        </Button>
+        <Button type="button" className="w-full" onClick={loginWithGoogle}>
+          {t("login.google")}
         </Button>
       </form>
     </div>

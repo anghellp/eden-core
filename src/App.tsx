@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Login from "@/routes/auth/Login";
 import Dashboard from "@/routes/Dashboard";
 import Admin from "@/routes/Admin";
+import TablasDelEden from "@/routes/mandamientos/TablasDelEden";
 import { AuthProvider, useAuth } from "@/hooks/useAuth";
 import "@/lib/i18n";
 

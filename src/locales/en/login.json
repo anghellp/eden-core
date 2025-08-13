@@ -1,0 +1,11 @@
+{
+  "title": "Sign In",
+  "email": "Email",
+  "password": "Password",
+  "login": "Log In",
+  "or": "or",
+  "loginWithGoogle": "Log in with Google",
+  "forgotPassword": "Forgot your password?",
+  "errorFillFields": "Please fill out all fields.",
+  "errorLogin": "Incorrect email or password."
+}

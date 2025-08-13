@@ -1,0 +1,11 @@
+{
+  "title": "Inicia sesión",
+  "email": "Correo electrónico",
+  "password": "Contraseña",
+  "login": "Iniciar sesión",
+  "or": "o",
+  "loginWithGoogle": "Iniciar sesión con Google",
+  "forgotPassword": "¿Olvidaste tu contraseña?",
+  "errorFillFields": "Por favor, completa todos los campos.",
+  "errorLogin": "Correo o contraseña incorrectos."
+}

@@ -182,3 +182,15 @@ EDEN_DEFAULT_TZ=America/Cancun
 - SLA/ETA: Tiempo de servicio/entrega.
 - Reglas normativas: Políticas ligadas a levantamiento.
 - Eva Skema: IA integrada.
+
+<p align="center">
+  <picture>
+    <!-- Dark mode -->
+    <source media="(prefers-color-scheme: dark)" srcset="./eden-architecture-dark.svg">
+    <!-- Light mode -->
+    <source media="(prefers-color-scheme: light)" srcset="./eden-architecture.svg">
+    <img src="./eden-architecture.svg" alt="Arquitectura EdenCore" width="980">
+  </picture>
+  <br/>
+  <em>Arquitectura & flujo de EdenCore (Frontend · Auth · DB · Storage · IA)</em>
+</p>
